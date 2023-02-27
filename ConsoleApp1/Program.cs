@@ -12,6 +12,24 @@ namespace ConsoleApp1
         {
             //Задание 1
             int[] array = new int[15];
+            //Random random = new Random();
+            //for (int i = 0; i < array.Length; i++)
+            //{
+            //    array[i] = random.Next(-50, 50);
+            //    Console.WriteLine($"array[{i}]= {array[i]}");
+            //}
+            //byte count = 0;
+            //for (int i = 0; i < array.Length; i++)
+            //{
+            //    if (array[i] % 3 == 0)
+            //    {
+            //        count++;
+            //    }
+            //}
+            //Console.WriteLine($"Колличество элементов массива кратных 3,={count}");
+            
+            //            Задание 2
+            int[] array = new int[15];
             Random random = new Random();
             for (int i = 0; i < array.Length; i++)
             {
@@ -27,10 +45,7 @@ namespace ConsoleApp1
                 }
             }
             Console.WriteLine($"Колличество элементов массива кратных 3,={count}");
-            Console.Read();
-            //            Задание 2
-
-
+                Console.Read();
         }
     }
 }
