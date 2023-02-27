@@ -16,8 +16,19 @@ namespace ConsoleApp1
             for (int i = 0; i < array.Length; i++)
             {
                 array[i] = random.Next(-50, 50);
-                Console.WriteLine($"array[{i}]= {array[i]}"};
+                Console.WriteLine($"array[{i}]= {array[i]}");
             }
+            byte count = 0;
+            for (int i = 0; i < array.Length; i++)
+            {
+                if (array[i] % 3 == 0)
+                {
+                    count++;
+                }
+            }
+            Console.WriteLine($"Колличество элементов массива кратных 3,={count}");
+            Console.Read();
+            //            Задание 2
 
 
         }
